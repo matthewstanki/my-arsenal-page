@@ -1,14 +1,15 @@
 .logo{
 	width: auto;
 	height: 300px;
+	margin-top: -100px;
 }
 
-.banner{
+/* .banner{
 	height: 150px;
 	background-image: url('../images/arsenalbanner.jpg');
 	background-size: cover;
-	background-position: center -300px;
-}
+	background-position: center -300px; 
+}*/
 
 .callOuts{
 	border: 1px solid #d7d8da;
@@ -76,5 +77,43 @@
 }
 
 .top-area {
-background-image: url(../images/800px_COLOURBOX10929245.jpg);
+	background-image: url('../images/arsenalbanner.jpg');
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-size: cover;
+	background-position: center -140px;
+	background-repeat: no-repeat;
+}
+
+.info-section {
+padding:40px 0; 
+}
+
+.info-section h2{
+    text-transform: none;
+    margin-top: 0;
+    color: #3D434D;
+	margin-bottom: 24px;
+	position: relative;
+	text-align: center;
+}
+
+.info-section h2:after {
+	content: "";
+	display: block;
+	border-bottom: 2px solid #FF0306;
+	width: 10%;
+	position: absolute;
+	padding-top: 12px;
+	text-align: center;
+	margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.info-section h3 { 
+	font-size: 21px;
+	font-weight: 300; 
+	text-align: center;
+	line-height: 1.4;
 }
